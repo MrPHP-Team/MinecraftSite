@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8ab9787-ff1b-4ac9-8270-a83cdb7399dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/PHP-Minecraft-Query/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1btllP64k3WHPx5VM8mQvkiYfCz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/monitoring_2" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Programs\xamp\htdocs" />
+      <recent name="C:\Programs\xamp\htdocs\monitoring" />
+      <recent name="C:\Programs\xamp\htdocs\banlist" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Programs\xamp\htdocs\monitoring_2" />
+      <recent name="C:\Programs\xamp\htdocs" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8ab9787-ff1b-4ac9-8270-a83cdb7399dd" name="Default Changelist" comment="" />
+      <created>1589459420661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589459420661</updated>
+      <workItem from="1589459422779" duration="4575000" />
+      <workItem from="1589467767771" duration="742000" />
+      <workItem from="1589479716089" duration="8000" />
+      <workItem from="1589485764540" duration="762000" />
+      <workItem from="1589488435663" duration="810000" />
+      <workItem from="1589525127199" duration="47000" />
+      <workItem from="1589527407827" duration="188000" />
+      <workItem from="1589549851471" duration="865000" />
+      <workItem from="1589550766427" duration="145000" />
+      <workItem from="1589563322321" duration="5780000" />
+      <workItem from="1589572601570" duration="4094000" />
+      <workItem from="1589610747543" duration="11000" />
+      <workItem from="1589643281232" duration="2734000" />
+      <workItem from="1589656059041" duration="1514000" />
+      <workItem from="1589657646355" duration="7385000" />
+      <workItem from="1589666817725" duration="80000" />
+      <workItem from="1589667397241" duration="655000" />
+      <workItem from="1589672771064" duration="150000" />
+      <workItem from="1589714124469" duration="2035000" />
+      <workItem from="1589798574651" duration="124000" />
+      <workItem from="1589810704447" duration="4918000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/PHP-Minecraft-Query" />
+      <path value="$PROJECT_DIR$/site" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="647" y="253" key="#Inspections" timestamp="1589566220853">
+      <screen x="0" y="30" width="2048" height="1122" />
+    </state>
+    <state x="647" y="253" key="#Inspections/0.30.2048.1122@0.30.2048.1122" timestamp="1589566220853" />
+    <state x="285" y="397" key="#SQL_Dialects" timestamp="1589567199833">
+      <screen x="0" y="30" width="2048" height="1122" />
+    </state>
+    <state x="285" y="397" key="#SQL_Dialects/0.30.2048.1122@0.30.2048.1122" timestamp="1589567199833" />
+    <state x="617" y="241" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589567210742">
+      <screen x="0" y="30" width="2048" height="1122" />
+    </state>
+    <state x="617" y="241" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.2048.1122@0.30.2048.1122" timestamp="1589567210742" />
+    <state x="771" y="374" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589664124035">
+      <screen x="0" y="30" width="2048" height="1122" />
+    </state>
+    <state x="771" y="374" key="#com.intellij.fileTypes.FileTypeChooser/0.30.2048.1122@0.30.2048.1122" timestamp="1589664124035" />
+    <state x="689" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589659915917">
+      <screen x="0" y="30" width="2048" height="1122" />
+    </state>
+    <state x="689" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.2048.1122@0.30.2048.1122" timestamp="1589659915917" />
+    <state x="834" y="497" key="NewPhpFileDialog" timestamp="1589550090104">
+      <screen x="0" y="30" width="2048" height="1122" />
+    </state>
+    <state x="834" y="497" key="NewPhpFileDialog/0.30.2048.1122@0.30.2048.1122" timestamp="1589550090104" />
+    <state x="533" y="236" key="SettingsEditor" timestamp="1589467674704">
+      <screen x="0" y="30" width="2048" height="1122" />
+    </state>
+    <state x="533" y="236" key="SettingsEditor/0.30.2048.1122@0.30.2048.1122" timestamp="1589467674704" />
+    <state x="597" y="274" key="run.anything.popup" timestamp="1589815597906">
+      <screen x="0" y="30" width="2048" height="1122" />
+    </state>
+    <state x="597" y="274" key="run.anything.popup/0.30.2048.1122@0.30.2048.1122" timestamp="1589815597906" />
+    <state x="603" y="118" width="840" height="1034" key="search.everywhere.popup" timestamp="1589657997110">
+      <screen x="0" y="30" width="2048" height="1122" />
+    </state>
+    <state x="603" y="118" width="840" height="1034" key="search.everywhere.popup/0.30.2048.1122@0.30.2048.1122" timestamp="1589657997110" />
+  </component>
+</project>
