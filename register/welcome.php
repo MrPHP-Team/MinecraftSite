@@ -29,9 +29,14 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
-                <li class="form-inline my-2 my-lg-0">
-                    <a href="/register/logout.php">Logout<a/>
-                </li>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/register/login.php">Login </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/register/logout.php">Logout </a>
+                    </li>
+                </ul>
             </ul>
         </div>
     </nav>
