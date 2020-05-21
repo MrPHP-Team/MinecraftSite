@@ -3,8 +3,8 @@
 	use xPaw\MinecraftQueryException;
 
 	// Edit this ->
-	define( 'MQ_SERVER_ADDR', 'localhost' );
-	define( 'MQ_SERVER_PORT', 25565 );
+	define( 'MQ_SERVER_ADDR', '192.162.246.31' );
+	define( 'MQ_SERVER_PORT', 16626 );
 	define( 'MQ_TIMEOUT', 1 );
 	// Edit this <-
 
@@ -73,6 +73,9 @@
 	<title>Minecraft Query PHP Class</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<style type="text/css">
+        body {
+            background-image: url(/images/bg.jpg); /* Путь к фоновому изображению */
+        }
 		.jumbotron {
 			margin-top: 30px;
 			border-radius: 0;
@@ -88,18 +91,10 @@
 <body>
     <div class="container">
     	<div class="jumbotron">
-                <center>
-                    <iframe src="/monitoring/view.php" height="85">
-                    </iframe>
-                </center>
-			<h1>Информация о сервере!</h1>
-
-			<p>Это было получено через query php lib</p>
-
-			<p>
-				<a class="btn btn-large btn-primary" href="/index.php">Made by CarryLove</a>
-				<a class="btn btn-large btn-primary" href="https://github.com/xPaw/PHP-Minecraft-Query">Библиотека</a>
-			</p>
+            <center>
+                <iframe src="/monitoring/view.php" height="85">
+                </iframe>
+            </center>
 		</div>
 
 <?php if( isset( $Exception ) ): ?>
@@ -137,7 +132,8 @@
 <?php endforeach; ?>
 <?php else: ?>
 						<tr>
-                            <iframe src="https://vk.com/video_ext.php?oid=-45745333&id=456240262&hash=4ebc227495fa2bde" width="640" height="360" frameborder="0" allowfullscreen></iframe>						</tr>
+                            <td>Игроков нет!</td>
+                        </tr>
 <?php endif; ?>
 					</tbody>
 				</table>
@@ -158,7 +154,8 @@
 <?php endforeach; ?>
 <?php else: ?>
 						<tr>
-                            <iframe src="https://vk.com/video_ext.php?oid=-45745333&id=456240262&hash=4ebc227495fa2bde" width="640" height="360" frameborder="0" allowfullscreen></iframe>						</tr>
+                            <td>Игроков нет!</td>
+                        </tr>
 <?php endif; ?>
 					</tbody>
 				</table>

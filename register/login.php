@@ -92,7 +92,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <html lang="en">
 <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="../index.php">AnusCraft</a>
+            <a class="navbar-brand" href="minecraft-site/index.php">AnusCraft</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -112,13 +112,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css">
     <style type="text/css">
         body{ font: 14px sans-serif; }
         .wrapper{ width: 350px; padding: 20px; }
     </style>
 </head>
 <body>
+<center>
 <div class="wrapper">
     <h2>Login</h2>
     <p>Please fill in your credentials to login.</p>
@@ -139,5 +140,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
     </form>
 </div>
+</center>
 </body>
 </html>

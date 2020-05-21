@@ -3,29 +3,34 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <?php
-	#подключаем файлы
+	#РїРѕРґРєР»СЋС‡Р°РµРј С„Р°Р№Р»С‹
     require __DIR__ . './src/MinecraftPing.php';
     require __DIR__ . './src/MinecraftPingException.php';
 	
-	#используем нужные
+	#РёСЃРїРѕР»СЊР·СѓРµРј РЅСѓР¶РЅС‹Рµ
     use xPaw\MinecraftPing;
     use xPaw\MinecraftPingException;
 
     try {
-		$ip = "localhost";
-		$port = 25565;
-		$text = "AnusCraft";
-		$textError = "Тех неполадки";
-		
-        $Query = new MinecraftPing( $ip, $port );
+        define( 'MQ_SERVER_ADDR', '192.162.246.31' );
+        define( 'MQ_SERVER_PORT', 16626 );
+        define( 'MQ_TIMEOUT', 1 );
 
-		$infoServer = $Query->Query(); //получим информацию о сервере 
-		
-		$mPlayers = $infoServer['players']['max']; //максимум игроков
-		$oPlayers = $infoServer['players']['online']; //сейчас онлайн
-		
-		$percent = $oPlayers*100/$mPlayers; //узнаем процент
-		
+		$ip = MQ_SERVER_ADDR;
+		$port = MQ_SERVER_PORT;
+		$text = "Aerolite";
+		$textError = "РўРµС… РЅРµРїРѕР»Р°РґРєРё";
+
+        $Query = new MinecraftPing( $ip, $port);
+
+		$infoServer = $Query->Query(); //РїРѕР»СѓС‡РёРј РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ СЃРµСЂРІРµСЂРµ
+
+		$mPlayers = $infoServer['players']['max']; //РјР°РєСЃРёРјСѓРј РёРіСЂРѕРєРѕРІ
+
+        $oPlayers = $infoServer['players']['online']; //СЃРµР№С‡Р°СЃ РѕРЅР»Р°Р№РЅ
+
+		$percent = $oPlayers*100/$mPlayers; //СѓР·РЅР°РµРј РїСЂРѕС†РµРЅС‚
+
 		print sprintf("
 
             <div  style=\"padding:5px; \">%s
@@ -36,7 +41,7 @@
     ", $text);
 		print $oPlayers.'/'.$mPlayers.' ('.$percent.'%)</div>';
     }
-    catch( MinecraftPingException $e ) //в случае проблем с подключением
+    catch( MinecraftPingException $e ) //РІ СЃР»СѓС‡Р°Рµ РїСЂРѕР±Р»РµРј СЃ РїРѕРґРєР»СЋС‡РµРЅРёРµРј
     {
         print ''.
 		$text.' <br><progress value="0" max="0" width="220px"></progress>';

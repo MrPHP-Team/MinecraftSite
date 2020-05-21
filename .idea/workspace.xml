@@ -20,9 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8ab9787-ff1b-4ac9-8270-a83cdb7399dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/adminMine/console/authsys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminMine/console/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminMine/console/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminMine/console/query/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminMine/console/query/query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminMine/console/rcon/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminMine/console/rcon/rcon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminMine/console/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminMine/console/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/src/MinecraftQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/src/MinecraftQueryException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitoring/src/MinecraftPing.php" beforeDir="false" afterPath="$PROJECT_DIR$/monitoring/src/MinecraftPing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitoring/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/monitoring/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/welcome.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/update.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +63,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/monitoring_2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/adminMine/console/res" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Programs\xamp\htdocs\adminMine\console" />
+      <recent name="C:\Programs\xamp\htdocs\register" />
+      <recent name="C:\Programs\xamp\htdocs\images" />
       <recent name="C:\Programs\xamp\htdocs" />
       <recent name="C:\Programs\xamp\htdocs\monitoring" />
-      <recent name="C:\Programs\xamp\htdocs\banlist" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Programs\xamp\htdocs\adminMine\console\res" />
+      <recent name="C:\Programs\xamp\htdocs\adminMine\console" />
+      <recent name="C:\Programs\xamp\htdocs\monitoring\src" />
       <recent name="C:\Programs\xamp\htdocs\monitoring_2" />
       <recent name="C:\Programs\xamp\htdocs" />
     </key>
@@ -91,7 +113,18 @@
       <workItem from="1589672771064" duration="150000" />
       <workItem from="1589714124469" duration="2035000" />
       <workItem from="1589798574651" duration="124000" />
-      <workItem from="1589810704447" duration="5367000" />
+      <workItem from="1589810704447" duration="6705000" />
+      <workItem from="1589817486461" duration="695000" />
+      <workItem from="1589836955407" duration="3899000" />
+      <workItem from="1589896872994" duration="2000" />
+      <workItem from="1589901067177" duration="34000" />
+      <workItem from="1589987271037" duration="20000" />
+      <workItem from="1589987406486" duration="337000" />
+      <workItem from="1589987897369" duration="22000" />
+      <workItem from="1590002080710" duration="1674000" />
+      <workItem from="1590043478301" duration="1034000" />
+      <workItem from="1590056200392" duration="162000" />
+      <workItem from="1590062072005" duration="1015000" />
     </task>
     <servers />
   </component>
@@ -133,10 +166,10 @@
       <screen x="0" y="30" width="2048" height="1122" />
     </state>
     <state x="771" y="374" key="#com.intellij.fileTypes.FileTypeChooser/0.30.2048.1122@0.30.2048.1122" timestamp="1589664124035" />
-    <state x="689" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589659915917">
+    <state x="689" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590062595274">
       <screen x="0" y="30" width="2048" height="1122" />
     </state>
-    <state x="689" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.2048.1122@0.30.2048.1122" timestamp="1589659915917" />
+    <state x="689" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.2048.1122@0.30.2048.1122" timestamp="1590062595274" />
     <state x="834" y="497" key="NewPhpFileDialog" timestamp="1589550090104">
       <screen x="0" y="30" width="2048" height="1122" />
     </state>
@@ -145,10 +178,10 @@
       <screen x="0" y="30" width="2048" height="1122" />
     </state>
     <state x="533" y="236" key="SettingsEditor/0.30.2048.1122@0.30.2048.1122" timestamp="1589467674704" />
-    <state x="597" y="274" key="run.anything.popup" timestamp="1589815597906">
+    <state x="597" y="274" key="run.anything.popup" timestamp="1589987573833">
       <screen x="0" y="30" width="2048" height="1122" />
     </state>
-    <state x="597" y="274" key="run.anything.popup/0.30.2048.1122@0.30.2048.1122" timestamp="1589815597906" />
+    <state x="597" y="274" key="run.anything.popup/0.30.2048.1122@0.30.2048.1122" timestamp="1589987573833" />
     <state x="603" y="118" width="840" height="1034" key="search.everywhere.popup" timestamp="1589657997110">
       <screen x="0" y="30" width="2048" height="1122" />
     </state>

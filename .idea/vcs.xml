@@ -2,6 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/adminMine/console/Minecraft-RCON-Console" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/monitoring/VImeMonitoring" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/register/loginRegister" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/register/minecraft-site" vcs="Git" />
   </component>
 </project>

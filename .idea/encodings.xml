@@ -3,7 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/monitoring/config.php" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/monitoring/index.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/register/welcome.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitoring/view.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/register/register.html" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/register/welcome.php" charset="windows-1251" />
     <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>
