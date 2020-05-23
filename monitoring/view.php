@@ -3,49 +3,48 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <?php
-	#подключаем файлы
-    require __DIR__ . './src/MinecraftPing.php';
-    require __DIR__ . './src/MinecraftPingException.php';
-	
-	#используем нужные
-    use xPaw\MinecraftPing;
-    use xPaw\MinecraftPingException;
+#подключаем файлы
+require __DIR__ . './src/MinecraftPing.php';
+require __DIR__ . './src/MinecraftPingException.php';
 
-    try {
-        define( 'MQ_SERVER_ADDR', '192.162.246.31' );
-        define( 'MQ_SERVER_PORT', 16626 );
-        define( 'MQ_TIMEOUT', 1 );
+#используем нужные
+use xPaw\MinecraftPing;
+use xPaw\MinecraftPingException;
 
-		$ip = MQ_SERVER_ADDR;
-		$port = MQ_SERVER_PORT;
-		$text = "Aerolite";
-		$textError = "Тех неполадки";
+try {
+    define( 'MQ_SERVER_ADDR', 'localhost' );
+    define( 'MQ_SERVER_PORT', 25565 );
+    define( 'MQ_TIMEOUT', 1 );
 
-        $Query = new MinecraftPing( $ip, $port);
+    $ip = MQ_SERVER_ADDR;
+    $port = MQ_SERVER_PORT;
+    $text = "Aerolite";
+    $textError = "Тех неполадки";
 
-		$infoServer = $Query->Query(); //получим информацию о сервере
+    $Query = new MinecraftPing( $ip, $port);
 
-		$mPlayers = $infoServer['players']['max']; //максимум игроков
+    $infoServer = $Query->Query(); //получим информацию о сервере
 
-        $oPlayers = $infoServer['players']['online']; //сейчас онлайн
+    $mPlayers = $infoServer['players']['max']; //максимум игроков
 
-		$percent = $oPlayers*100/$mPlayers; //узнаем процент
+    $oPlayers = $infoServer['players']['online']; //сейчас онлайн
 
-		print sprintf("
+    $percent = $oPlayers*100/$mPlayers; //узнаем процент
 
+    print sprintf("
             <div  style=\"padding:5px; \">%s
                 <div class=\"progress\">
                     <div class=\"progress-bar progress-bar-striped progress-bar-animated bg-success\" role=\"progressbar\" style=\"width: $percent \" aria-valuenow=\"$percent\" aria-valuemin=\"0\" aria-valuemax=\"$mPlayers\">
                     </div>
                 </div>
     ", $text);
-		print $oPlayers.'/'.$mPlayers.' ('.$percent.'%)</div>';
-    }
-    catch( MinecraftPingException $e ) //в случае проблем с подключением
-    {
-        print ''.
-		$text.' <br><progress value="0" max="0" width="220px"></progress>';
-		print '<br>'.$textError.'</div>';
-    }
+    print $oPlayers.'/'.$mPlayers.' ('.$percent.'%)</div>';
+}
+catch( MinecraftPingException $e ) //в случае проблем с подключением
+{
+    print ''.
+        $text.' <br><progress value="0" max="0" width="220px"></progress>';
+    print '<br>'.$textError.'</div>';
+}
 ?>
 </html>
