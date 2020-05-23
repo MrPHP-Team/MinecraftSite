@@ -72,7 +72,7 @@ $Timer = Number_Format( MicroTime( true ) - $Timer, 4, '.', '' );
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <style type="text/css">
         body {
-            background-image: url(/images/bg.jpg); /* Путь к фоновому изображению */
+            background-image: url(/images/bg.jpg); /* РџСѓС‚СЊ Рє С„РѕРЅРѕРІРѕРјСѓ РёР·РѕР±СЂР°Р¶РµРЅРёСЋ */
         }
         .jumbotron {
             margin-top: 30px;
@@ -90,12 +90,12 @@ $Timer = Number_Format( MicroTime( true ) - $Timer, 4, '.', '' );
 <div class="container">
     <div class="jumbotron">
         <center>
-            <iframe src="/monitoring/view.php" height="85">
-            </iframe>
+            <t Admin Panel</table>
         </center>
     </div>
 
-    <?php if( isset( $Exception ) ): ?>
+    <?php if( isset( $Exception ) ):?>
+
         <div class="panel panel-primary">
             <div class="panel-heading"><?php echo htmlspecialchars( $Exception->getMessage( ) ); ?></div>
             <div class="panel-body"><?php echo nl2br( $e->getTraceAsString(), false ); ?></div>
@@ -104,38 +104,9 @@ $Timer = Number_Format( MicroTime( true ) - $Timer, 4, '.', '' );
         <div class="row">
             <div class="col-sm-6">
                 <table class="table table-bordered table-striped">
-                    <tbody>
-                    <?php if( ( $Info = $Query->GetInfo( ) ) !== false ): ?>
-                        <?php foreach( $Info as $InfoKey => $InfoValue ): ?>
-                            <tr>
-                                <td><?php echo htmlspecialchars( $InfoKey ); ?></td>
-                                <td><?php
-                                    if( Is_Array( $InfoValue ) )
-                                    {
-                                        echo "<pre>";
-                                        print_r( $InfoValue );
-                                        echo "</pre>";
-                                    }
-                                    else
-                                    {
-                                        echo htmlspecialchars( $InfoValue );
-                                    }
-                                    ?></td>
-                            </tr>
-                        <?php endforeach; ?>
-                    <?php else: ?>
-                        <tr>
-                            <td>Игроков нет!</td>
-                        </tr>
-                    <?php endif; ?>
-                    </tbody>
-                </table>
-            </div>
-            <div class="col-sm-6">
-                <table class="table table-bordered table-striped">
                     <thead>
                     <tr>
-                        <th>Players</th>
+                        <th>РћРЅР»Р°Р№РЅ:</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -147,9 +118,20 @@ $Timer = Number_Format( MicroTime( true ) - $Timer, 4, '.', '' );
                         <?php endforeach; ?>
                     <?php else: ?>
                         <tr>
-                            <td>Игроков нет!</td>
+                            <td>РРіСЂРѕРєРѕРІ РЅРµС‚!</td>
                         </tr>
                     <?php endif; ?>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-6">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                        <th>РџР»Р°РіРёРЅС‹:</th>
+                    </tr>
+                    </thead>
+                    <tbody>
                     </tbody>
                 </table>
             </div>

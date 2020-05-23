@@ -20,18 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8ab9787-ff1b-4ac9-8270-a83cdb7399dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/htdocs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/htdocs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/authsys.php" beforeDir="false" afterPath="$PROJECT_DIR$/adminMine/console/authsys.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monitoring/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinecraftPing.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinecraftPingException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinecraftQuery.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinecraftQueryException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/adminMine/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +113,7 @@
       <workItem from="1590101206732" duration="1298000" />
       <workItem from="1590240366840" duration="6000" />
       <workItem from="1590240733919" duration="177000" />
-      <workItem from="1590240933181" duration="1643000" />
+      <workItem from="1590240933181" duration="3822000" />
     </task>
     <servers />
   </component>
