@@ -1,26 +1,4 @@
-<?php
-/*
-This file is part of Minecraft-RCON-Console.
-
-Minecraft-RCON-Console is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-Minecraft-RCON-Console is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with Minecraft-RCON-Console.  If not, see <http://www.gnu.org/licenses/>.
-*/
-
-require 'config.php';
-?>
-
 <!DOCTYPE HTML>
-
 <html>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -54,87 +32,51 @@ require 'config.php';
         </div>
     </nav>
 </header>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Minecraft RCON Console</title>
 
-	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Console</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-	<script type="text/JavaScript" src="script.js"></script>
-
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script type="text/javascript" src="static/js/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery-ui-1.12.0.min.js"></script>
+    <script type="text/javascript" src="static/js/bootstrap.min.js" ></script>
+    <script type="text/javascript" src="static/js/script.js" ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA+5pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ1dWlkOjY1RTYzOTA2ODZDRjExREJBNkUyRDg4N0NFQUNCNDA3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkI0N0JDRjhEMDY5MTExRTI5OUZEQTZGODg4RDc1ODdCIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkI0N0JDRjhDMDY5MTExRTI5OUZEQTZGODg4RDc1ODdCIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowMTgwMTE3NDA3MjA2ODExODA4M0ZFMkJBM0M1RUU2NSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowNjgwMTE3NDA3MjA2ODExODA4M0U3NkRBMDNEMDVDMSIvPiA8ZGM6dGl0bGU+IDxyZGY6QWx0PiA8cmRmOmxpIHhtbDpsYW5nPSJ4LWRlZmF1bHQiPmdseXBoaWNvbnM8L3JkZjpsaT4gPC9yZGY6QWx0PiA8L2RjOnRpdGxlPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgFdWUIAAAExSURBVHjaxFUBEcIwDFxRMAmVMAnBQSVMAhImAQlIQAJzUBzgAByU9C7jspCsZdc7cvfHyNbPLcn/upRSVwOMiEiEW+05R4c3wznX48+T5/Cc6yrioJBNCBBpUJ4D+R8xflUQbbiwNuRrjzghHiy/IOcy4YC4svy44mTkk0KyF2Hh5S26de0i1rRoLya1RVTANyjQc065RcF45TvimFeT1vNIOS3C1xblqnRD25ZoCK8X4vs8T1z9orFYeGXYUHconI2OLswoKRbFlX5S8i9BFlK0irlAAhu3Q4F/5v0Ea8hy9diQrefB0sFoDWuRPxGPBvnKJrQCQ2uhyQLXBgXOlptCQzcdNKvwDd3UW27KhzyxgW5aQm5L8YMj5O8rLAGUBQn//+gbfvQS9jzXDuMtwAATXCNvATubRQAAAABJRU5ErkJggg==" />
 </head>
-
-
 <body>
-	<!-- Stack the columns on mobile by making one full-width and the other half-width -->
-	<div class="container-fluid content" style="padding-top: 15px;">
-		<div class="alert alert-info" id="alertMessenge">Welcome to Minecraft RCON Console.</div>
-		<div class="alert alert-info"><center><?php echo $serverName; ?></center></div>
-		<div class="row">
-			<div class="col-md-8 col-lg-8 console">
-				<div class="panel panel-primary" >
-					<div class="panel-heading">
-						<h3 class="panel-title">Console</h3>
-					</div>
-                    <div class="panel-body">
-						<ul class="list-group" id="groupConsole">
-							<li class="list-group-item list-group-item-info">Welcome to Minecraft RCON Console.</li>
-						</ul>
-
-					</div>
-                </div>
-
-				<div class="checkbox panel panel-default panel-body">
-					<label style="padding-top: 1%;">
-						<input type="checkbox" id="chkAutoScroll" checked="true" > Auto scroll
-					</label>
-					<button type="button" class="btn btn-primary" tabindex="0" id="btnClearLog" style="float:right;"><span class="glyphicon glyphicon-remove-sign"></span> Clear Console</button>
-				</div>
-
-				<div class="input-group">
-					<input type="text" class="form-control" id="txtCommand">
-					<div class="input-group-btn">
-						<button type="button" class="btn btn-primary" tabindex="-1" id="btnSend"><span class="glyphicon glyphicon-arrow-right"></span> Send</button>
-					</div>
-				</div>
-			</div>
-
-
-
-			<div class="col-md-4 col-lg-4 status">
-				<div class="panel panel-default">
-					<div class="panel-body">
-						Minecraft RCON Console | Develop by CarryLove
-					</div>
-				</div>
-
-			</div>
-
-		</div>
-	</div>
-
-
-
+  <div class="container-fluid" id="content">
+    <div class="alert alert-info" id="alertMessage">
+      Minecraft Console
+    </div>
+    <div id="consoleRow">
+      <div class="panel panel-default" id="consoleContent">
+        <div class="panel-heading">
+          <h3 class="panel-title pull-left"><span class="glyphicon glyphicon-console"></span> Console</h3>
+          <div class="btn-group btn-group-xs pull-right">
+            <a class="btn btn-default" href="http://minecraft.gamepedia.com/Commands" target="_blank"><span class="glyphicon glyphicon-question-sign"></span><span class="hidden-xs"> Commands</span></a>
+            <a class="btn btn-default" href="http://www.minecraftinfo.com/idlist.htm" target="_blank"><span class="glyphicon glyphicon-info-sign"></span><span class="hidden-xs"> Items IDs</span></a>
+          </div>
+        </div>
+        <div class="panel-body" width="1280" height="720">
+          <ul class="list-group" id="groupConsole"></ul>
+        </div>
+      </div>
+      <div class="input-group" id="consoleCommand">
+        <span class="input-group-addon">
+          <input id="chkAutoScroll" type="checkbox" checked="true" autocomplete="off" /><span class="glyphicon glyphicon-arrow-down"></span>
+        </span>
+        <div id="txtCommandResults"></div>
+        <input type="text" class="form-control" id="txtCommand" />
+        <div class="input-group-btn">
+          <button type="button" class="btn btn-primary" id="btnSend"><span class="glyphicon glyphicon-send"></span><span class="hidden-xs"> Send</span></button>
+          <button type="button" class="btn btn-warning" id="btnClearLog"><span class="glyphicon glyphicon-erase"></span><span class="hidden-xs"> Clear</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
-
-<footer id = "footer">
-	<div class="container-fluid">
-
-	</div>
-</footer>
-
 </html>

@@ -1,57 +1,39 @@
 <?php
-/*
-This file is part of Minecraft-RCON-Console.
-
-    Minecraft-RCON-Console is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    Minecraft-RCON-Console is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with Minecraft-RCON-Console.  If not, see <http://www.gnu.org/licenses/>.
-*/
+header('Content-type: application/json');
 
 require 'rcon.php';
 require '../config.php';
 
-$host = $rconHost; // Server host name or IP
-$port = $rconPort;                      // Port rcon is listening on
-$password = $rconPassword; // rcon.password setting set in server.properties
-$timeout = 3;                       // How long to timeout.
- 
+$host = $rconHost;
+$port = $rconPort;
+$password = $rconPassword;
+$timeout = 3;
+
+$response = array();
 $rcon = new Rcon($host, $port, $password, $timeout);
 
-if(!isset($_POST['cmd'])) return;
-
-if ($rcon->connect())
-{
-	$rcon->send_command($_POST['cmd']);
-	//echo $rcon->get_response();
-	echo preg_replace("/§./", "", $rcon->get_response()); //remove some invalid char
+if(!isset($_POST['cmd'])){
+  $response['status'] = 'error';
+  $response['error'] = 'Empty command';
+}
+else{
+  if ($rcon->connect()){
+    $rcon->send_command($_POST['cmd']);
+    $response['status'] = 'success';
+    $response['command'] = $_POST['cmd'];
+    $response['response'] = parseMinecraftColors($rcon->get_response());
+  }
+  else{
+    $response['status'] = 'error';
+    $response['error'] = 'RCON connection error';
+  }
 }
 
-//if(!isset($_REQUEST['case'])) return;
-
-/*switch ($_REQUEST['case'])
-{
-case "give" : 
-if(!isset($_REQUEST[playername]) || !isset($_REQUEST[itemid]) || !isset($_REQUEST[amount])) return;
-$playername = $_REQUEST[playername];
-$itemid = $_REQUEST[itemid];
-$amount = $_REQUEST[amount];
-if ($rcon->connect())
-{
-	$rcon->send_command("give $playername $itemid $amount");
-	echo $rcon->get_response();
+function parseMinecraftColors($string) {
+  $string = utf8_decode(htmlspecialchars($string, ENT_QUOTES, "UTF-8"));
+  $string = preg_replace('/\xA7([0-9a-f])/i', '<span class="mc-color mc-$1">', $string, -1, $count) . str_repeat("</span>", $count);
+  return utf8_encode(preg_replace('/\xA7([k-or])/i', '<span class="mc-$1">', $string, -1, $count) . str_repeat("</span>", $count));
 }
-break;
-default: break;
 
-}
-*/
+echo json_encode($response);
 ?>

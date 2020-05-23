@@ -3,7 +3,9 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/WebAdmin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/adminMine/PHP-Minecraft-Server-Status-Query" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/adminMine/WebAdmin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/adminMine/console/Minecraft-RCON" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/adminMine/console/Minecraft-RCON-Console" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/monitoring/VImeMonitoring" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/register/loginRegister" vcs="Git" />

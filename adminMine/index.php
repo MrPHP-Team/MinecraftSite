@@ -1,12 +1,14 @@
 <?php
 use xPaw\MinecraftQuery;
 use xPaw\MinecraftQueryException;
+use MinecraftServerStatus\MinecraftServerStatus;
 
 // Edit this ->
 define( 'MQ_SERVER_ADDR', '192.162.246.31' );
 define( 'MQ_SERVER_PORT', 16626 );
 define( 'MQ_TIMEOUT', 1 );
 // Edit this <-
+
 
 // Display everything in browser, because some people can't look in logs for errors
 Error_Reporting( E_ALL | E_STRICT );
@@ -132,6 +134,10 @@ $Timer = Number_Format( MicroTime( true ) - $Timer, 4, '.', '' );
                     </tr>
                     </thead>
                     <tbody>
+                    <tr>
+                        <td>
+                        </td>
+                    </tr>
                     </tbody>
                 </table>
             </div>
