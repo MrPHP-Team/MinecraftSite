@@ -20,24 +20,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8ab9787-ff1b-4ac9-8270-a83cdb7399dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/htdocs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/htdocs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/authsys.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/adminMine/console/config.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/adminMine/console/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/query/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/query/query.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/adminMine/console/rcon/index.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/adminMine/console/rcon/rcon.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/res/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/adminMine/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinecraftPing.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinecraftPingException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinecraftQuery.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MinecraftQueryException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/console/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/console/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/console/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/console/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/console/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/console/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/console/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/console/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/console/static/js/jquery-1.12.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/console/static/js/jquery-migrate-1.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/console/static/js/jquery-ui-1.12.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/console/static/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/src/MinecraftPing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/src/MinecraftPingException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/src/MinecraftQuery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminMine/src/MinecraftQueryException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/bans.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/error/access-denied.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/error/missing-extensions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/error/outdated-plugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/error/tables-not-found.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/error/unconfigured.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/history.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/css/glyphicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/img/console.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/init.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/inc/settings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/kicks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/lang/ru_RU.utf8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/mutes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/banlist/warnings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitoring/src/MinecraftPing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitoring/src/MinecraftPingException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitoring/src/MinecraftQuery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitoring/src/MinecraftQueryException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitoring/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/logout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/update.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/welcome.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_serverping.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,24 +115,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/adminMine" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/donate/vanilla" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Programs\xamp\htdocs\donate\vanilla" />
+      <recent name="C:\Programs\xamp\htdocs\test" />
+      <recent name="C:\Programs\xamp\htdocs\images" />
       <recent name="C:\Programs\xamp\htdocs\adminMine" />
       <recent name="C:\Programs\xamp\htdocs" />
-      <recent name="C:\Programs\xamp\htdocs\adminMine\console\res" />
-      <recent name="C:\Programs\xamp\htdocs\adminMine\console" />
-      <recent name="C:\Programs\xamp\htdocs\monitoring\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Programs\xamp\htdocs\adminMine\src" />
-      <recent name="C:\Programs\xamp\htdocs\adminMine" />
-      <recent name="C:\Programs\xamp\htdocs\stats" />
-      <recent name="C:\Programs\xamp\htdocs\monitoring" />
-      <recent name="C:\Programs\xamp\htdocs\adminMine\console" />
+      <recent name="C:\Programs\xamp\htdocs\donate\pvp" />
+      <recent name="C:\Programs\xamp\htdocs\donate\vanilla" />
+      <recent name="C:\Programs\xamp\htdocs" />
+      <recent name="C:\Programs\xamp\htdocs\test\1" />
+      <recent name="C:\Programs\xamp\htdocs\images" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -129,7 +182,14 @@
       <workItem from="1590240366840" duration="6000" />
       <workItem from="1590240733919" duration="177000" />
       <workItem from="1590240933181" duration="3822000" />
-      <workItem from="1590263726168" duration="5439000" />
+      <workItem from="1590263726168" duration="6811000" />
+      <workItem from="1590316164823" duration="1448000" />
+      <workItem from="1590329651671" duration="1200000" />
+      <workItem from="1590353005491" duration="1161000" />
+      <workItem from="1590354275543" duration="658000" />
+      <workItem from="1590363059031" duration="852000" />
+      <workItem from="1590364367689" duration="673000" />
+      <workItem from="1590404405449" duration="4519000" />
     </task>
     <servers />
   </component>
@@ -167,14 +227,14 @@
       <screen x="0" y="30" width="2048" height="1122" />
     </state>
     <state x="617" y="241" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.2048.1122@0.30.2048.1122" timestamp="1589567210742" />
-    <state x="771" y="374" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589664124035">
+    <state x="771" y="374" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590407979746">
       <screen x="0" y="30" width="2048" height="1122" />
     </state>
-    <state x="771" y="374" key="#com.intellij.fileTypes.FileTypeChooser/0.30.2048.1122@0.30.2048.1122" timestamp="1589664124035" />
-    <state x="689" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590244613953">
+    <state x="771" y="374" key="#com.intellij.fileTypes.FileTypeChooser/0.30.2048.1122@0.30.2048.1122" timestamp="1590407979746" />
+    <state x="689" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590407894172">
       <screen x="0" y="30" width="2048" height="1122" />
     </state>
-    <state x="689" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.2048.1122@0.30.2048.1122" timestamp="1590244613953" />
+    <state x="689" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.2048.1122@0.30.2048.1122" timestamp="1590407894172" />
     <state x="868" y="356" key="FileChooserDialogImpl" timestamp="1590240824210">
       <screen x="0" y="30" width="2048" height="1122" />
     </state>
@@ -191,9 +251,9 @@
       <screen x="0" y="30" width="2048" height="1122" />
     </state>
     <state x="597" y="274" key="run.anything.popup/0.30.2048.1122@0.30.2048.1122" timestamp="1590244377486" />
-    <state x="603" y="118" width="840" height="1034" key="search.everywhere.popup" timestamp="1590268842655">
+    <state x="603" y="118" width="840" height="1034" key="search.everywhere.popup" timestamp="1590406865132">
       <screen x="0" y="30" width="2048" height="1122" />
     </state>
-    <state x="603" y="118" width="840" height="1034" key="search.everywhere.popup/0.30.2048.1122@0.30.2048.1122" timestamp="1590268842655" />
+    <state x="603" y="118" width="840" height="1034" key="search.everywhere.popup/0.30.2048.1122@0.30.2048.1122" timestamp="1590406865132" />
   </component>
 </project>

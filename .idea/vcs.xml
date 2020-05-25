@@ -7,6 +7,7 @@
     <mapping directory="$PROJECT_DIR$/adminMine/WebAdmin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/adminMine/console/Minecraft-RCON" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/adminMine/console/Minecraft-RCON-Console" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/minecraft-site" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/monitoring/VImeMonitoring" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/register/loginRegister" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/register/minecraft-site" vcs="Git" />
