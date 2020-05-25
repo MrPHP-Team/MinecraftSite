@@ -1,68 +1,58 @@
 <?php
-define('INCLUDE_CHECK',true);
-header('Content-Type: text/html;charset=UTF-8');
-include "./incl/init.php";
+
+use Alonity\Alonity;
+
+ini_set('display_errors', true);
+error_reporting(E_ALL);
+
+//$start = microtime(true);
+
+ini_set('session.cookie_lifetime', 3600*24*365);
+
+ini_set("upload_max_filesize", "8M");
+ini_set("post_max_size", "8M");
+ini_set("upload_tmp_dir", __DIR__."/Uploads/tmp/");
+
+if(function_exists('date_default_timezone_set')){
+	date_default_timezone_set('Europe/Moscow');
+}
+
+header('Content-Type: text/html; charset=UTF-8');
+
+if(!file_exists(__DIR__.'/Uploads/tmp/index.html')){
+	if(!file_exists(__DIR__.'/Uploads/tmp')){
+		mkdir(__DIR__.'/Uploads/tmp', 0755, true);
+	}
+
+	copy(__DIR__.'/Uploads/index.html', __DIR__.'/Uploads/tmp/index.html');
+}
+
+if(!file_exists(__DIR__.'/Uploads/cache/index.html')){
+	if(!file_exists(__DIR__.'/Uploads/cache')){
+		mkdir(__DIR__.'/Uploads/cache', 0755, true);
+	}
+
+	copy(__DIR__.'/Uploads/index.html', __DIR__.'/Uploads/cache/index.html');
+}
+
+/*if(!file_exists(__DIR__.'/Uploads/cache/sessions/index.html')){
+	if(!file_exists(__DIR__.'/Uploads/cache/sessions')){
+		mkdir(__DIR__.'/Uploads/cache/sessions', 0755, true);
+	}
+
+	copy(__DIR__.'/Uploads/index.html', __DIR__.'/Uploads/cache/sessions/index.html');
+}
+
+session_save_path(__DIR__.'/Uploads/cache/sessions');*/
+
+if(!isset($_SESSION)){ session_start(); }
+
+require_once(__DIR__.'/Alonity/Alonity.php');
+
+$alonity = new Alonity();
+
+$alonity->RunApp('MyApp');
+
+//echo microtime(true)-$start;
+
 ?>
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="<?=$config['domain']?>/css/style.css">
-		<link rel="stylesheet" type="text/css" href="<?=$config['domain']?>/css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="<?=$config['domain']?>/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="<?=$config['domain']?>/css/bootstrap-responsive.css">
-		<script type="text/javascript" src="<?=$config['domain'] ?>/js/jquery-1.10.2.js"></script>
-		<script type="text/javascript" src="<?=$config['domain'] ?>/js/jquery-ui-1.10.4.custom.js"></script>
-		<script type="text/javascript" src="<?=$config['domain'] ?>/js/libs.js"></script>
-		<title><?=$config['title']?></title>
-	</head>
-	<body><br />
-		<center><h3>Покупка услуг</h3>
-		<form method="POST" action="" class="form-pay">
-			<div><input type="text" name="nikname" placeholder="Ник на сервере" class="form-control" /></div><br />
-			<?php if ( count($config['servers']) > 1 ) : ?>
-				<select name="servers" id="sel-servers" class="form-control">
-				<?php foreach ( $config['servers'] as $key => $val ) : ?>
-					<option value="<?=$key?>"><?=$val['name']?></option>
-				<?php endforeach; ?>
-				</select>
-				<br />
-				<?php foreach ( $config['servers'] as $key => $nope ) : ?>
-					<div id="view-server" class="class-<?=$key?>" style="display: none">
-						<select name="server" class="form-control">
-							<?php foreach ( $nope['groups'] as $val ) : ?>
-							<option value="<?=$val?>">[<?=$config['groups'][$val]['name']?>] <?=$config['groups'][$val]['price']?> Р. \ Сроком: <?php echo $config['groups'][$val]['time'] == 0 ? "Вечно" : $config['groups'][$val]['time'] ?></option>
-							<?php endforeach; ?>
-						</select>
-					</div>
-				<?php endforeach; ?>
-			<?php else : ?>
-				<select name="group" class="form-control">
-					<?php foreach ( $config['groups'] as $val => $key ) : ?>
-					<option value="<?=$val?>">[<?=$key['name']?>] <?=$key['price']?> Р. \ Сроком: <?php echo $key['time'] == 0 ? "Вечно" : $key['time'] ?></option>
-					<?php endforeach; ?>
-				</select>
-			<?php endif; ?><br />
-			<div><input type="submit" class="btn btn-success" name="buy" value="Купить" /></div>
-		</form></center>
-		
-		<center style="margin-top: 100px;">
-			<?php foreach ( $monitoring as $key => $val ) : ?>
-				<?php if ( $val['status'] ) : ?>
-				<div style="width: 400px; text-align: center;">IP: <?php echo ! empty ( $val['server']['port'] ) ? $val['server']['host'].":".$val['server']['port'] : $val['server']['host'] ?></div>
-				<div style="width: 400px">Кол-во: <?=$val['numpl']?>, слотов: <?=$val['maxpl']?>, рекрод - <?=$val['record']?></div>
-				<div class="progress" style="width: 400px">
-					<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="<?=($val['numpl']/$val['maxpl'])*100?>" aria-valuemin="0" aria-valuemax="100" style="width: <?=($val['numpl']/$val['maxpl'])*100?>%">
-						<span class="sr-only"></span>
-					</div>
-				</div>
-				<?php else: ?>
-				<div style="width: 400px; text-align: center;">Сервер Offline</div>
-				<div class="progress" style="width: 400px">
-					<div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-						<span class="sr-only"></span>
-					</div>
-				</div>
-				<?php endif; ?>
-			<?php endforeach; ?>
-		</center>
-	</body>
-</html>

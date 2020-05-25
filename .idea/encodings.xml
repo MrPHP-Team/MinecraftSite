@@ -3,7 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/.editorconfig" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/adminMine/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/main.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/donate/index,php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/donate/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/donate/pvp/.htaccess" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/donate/pvp/db.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/monitoring/config.php" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/monitoring/index.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/monitoring/view.php" charset="UTF-8" />

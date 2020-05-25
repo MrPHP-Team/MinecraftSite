@@ -21,76 +21,481 @@
   <component name="ChangeListManager">
     <list default="true" id="e8ab9787-ff1b-4ac9-8270-a83cdb7399dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/htdocs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/htdocs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/rcon/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/rcon/rcon.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/static/js/jquery-1.12.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/static/js/jquery-migrate-1.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/static/js/jquery-ui-1.12.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/console/static/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/src/MinecraftPing.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/src/MinecraftPingException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/src/MinecraftQuery.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminMine/src/MinecraftQueryException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/bans.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/check.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/error/access-denied.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/error/missing-extensions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/error/outdated-plugin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/error/tables-not-found.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/error/unconfigured.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/history.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/css/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/css/glyphicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/img/console.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/init.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/inc/settings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/info.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/kicks.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/lang/ru_RU.utf8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/mutes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banlist/warnings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/css/bootstrap-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/incl/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/incl/db_connect.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/incl/init.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/incl/onepage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/donate/pvp/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/jquery-1.10.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/jquery-ui-1.10.4.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/jquery-ui-1.10.4.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/libs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery-ui-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-ar-DZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-cy-GB.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-en-AU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-en-GB.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-en-NZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-fo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-fr-CA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-fr-CH.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-hy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-kk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-ky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-lb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-ml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-nl-BE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-nn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-rm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-sr-SR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-ta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-tj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-zh-HK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/i18n/jquery.ui.datepicker-zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery-ui.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.draggable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.droppable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.effect-blind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.effect-bounce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.effect-clip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.effect-drop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.effect-explode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.effect-fade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.effect-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.effect-highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.effect-pulsate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.effect-scale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.effect-shake.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.effect-slide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.effect-transfer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.effect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.mouse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.position.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.progressbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.resizable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.selectable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.sortable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.spinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/jquery.ui.widget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery-ui-i18n.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-af.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-ar-DZ.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-ar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-az.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-be.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-bg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-bs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-ca.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-cs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-cy-GB.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-da.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-de.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-el.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-en-AU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-en-GB.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-en-NZ.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-eo.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-es.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-et.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-eu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-fa.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-fi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-fo.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-fr-CA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-fr-CH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-fr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-gl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-he.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-hi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-hr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-hu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-hy.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-id.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-is.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-it.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-ja.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-ka.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-kk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-km.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-ko.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-ky.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-lb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-lt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-lv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-mk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-ml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-ms.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-nb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-nl-BE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-nl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-nn.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-no.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-pl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-pt-BR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-pt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-rm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-ro.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-ru.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-sk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-sl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-sq.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-sr-SR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-sr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-sv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-ta.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-th.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-tj.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-tr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-uk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-vi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-zh-CN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-zh-HK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/i18n/jquery.ui.datepicker-zh-TW.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery-ui.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.accordion.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.autocomplete.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.button.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.core.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.datepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.dialog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.draggable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.droppable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.effect-blind.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.effect-bounce.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.effect-clip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.effect-drop.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.effect-explode.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.effect-fade.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.effect-fold.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.effect-highlight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.effect-pulsate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.effect-scale.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.effect-shake.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.effect-slide.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.effect-transfer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.effect.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.menu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.mouse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.position.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.progressbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.resizable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.selectable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.slider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.sortable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.spinner.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.tabs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.tooltip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/js/ui/minified/jquery.ui.widget.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/payment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/record.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp/transication.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/css/bootstrap-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/incl/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/incl/db_connect.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/incl/init.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/incl/onepage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/jquery-1.10.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/jquery-ui-1.10.4.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/jquery-ui-1.10.4.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/libs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery-ui-i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-ar-DZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-be.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-cy-GB.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-en-AU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-en-GB.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-en-NZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-fo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-fr-CA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-fr-CH.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-hy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-kk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-ky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-lb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-ml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-nl-BE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-nn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-rm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-sr-SR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-ta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-tj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-zh-HK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/i18n/jquery.ui.datepicker-zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery-ui.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.draggable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.droppable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.effect-blind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.effect-bounce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.effect-clip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.effect-drop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.effect-explode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.effect-fade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.effect-fold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.effect-highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.effect-pulsate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.effect-scale.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.effect-shake.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.effect-slide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.effect-transfer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.effect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.mouse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.position.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.progressbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.resizable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.selectable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.sortable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.spinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/jquery.ui.widget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery-ui-i18n.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-af.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-ar-DZ.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-ar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-az.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-be.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-bg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-bs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-ca.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-cs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-cy-GB.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-da.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-de.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-el.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-en-AU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-en-GB.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-en-NZ.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-eo.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-es.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-et.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-eu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-fa.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-fi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-fo.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-fr-CA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-fr-CH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-fr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-gl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-he.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-hi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-hr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-hu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-hy.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-id.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-is.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-it.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-ja.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-ka.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-kk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-km.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-ko.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-ky.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-lb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-lt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-lv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-mk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-ml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-ms.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-nb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-nl-BE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-nl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-nn.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-no.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-pl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-pt-BR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-pt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-rm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-ro.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-ru.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-sk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-sl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-sq.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-sr-SR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-sr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-sv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-ta.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-th.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-tj.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-tr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-uk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-vi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-zh-CN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-zh-HK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/i18n/jquery.ui.datepicker-zh-TW.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery-ui.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.accordion.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.autocomplete.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.button.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.core.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.datepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.dialog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.draggable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.droppable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.effect-blind.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.effect-bounce.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.effect-clip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.effect-drop.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.effect-explode.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.effect-fade.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.effect-fold.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.effect-highlight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.effect-pulsate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.effect-scale.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.effect-shake.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.effect-slide.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.effect-transfer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.effect.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.menu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.mouse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.position.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.progressbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.resizable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.selectable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.slider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.sortable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.spinner.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.tabs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.tooltip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/js/ui/minified/jquery.ui.widget.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/payment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/record.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate/pvp2/transication.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/license.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monitoring/src/MinecraftPing.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monitoring/src/MinecraftPingException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monitoring/src/MinecraftQuery.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monitoring/src/MinecraftQueryException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/monitoring/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/logout.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/update.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/welcome.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view_serverping.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,23 +520,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/donate/vanilla" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Programs\xamp\htdocs\donate\vanilla" />
-      <recent name="C:\Programs\xamp\htdocs\test" />
-      <recent name="C:\Programs\xamp\htdocs\images" />
-      <recent name="C:\Programs\xamp\htdocs\adminMine" />
-      <recent name="C:\Programs\xamp\htdocs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Programs\xamp\htdocs\donate\pvp" />
       <recent name="C:\Programs\xamp\htdocs\donate\vanilla" />
       <recent name="C:\Programs\xamp\htdocs" />
       <recent name="C:\Programs\xamp\htdocs\test\1" />
+      <recent name="C:\Programs\xamp\htdocs\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Programs\xamp\htdocs\img" />
+      <recent name="C:\Programs\xamp\htdocs\css\bootstrap" />
+      <recent name="C:\Programs\xamp\htdocs\donate\vanilla" />
+      <recent name="C:\Programs\xamp\htdocs\test" />
       <recent name="C:\Programs\xamp\htdocs\images" />
     </key>
   </component>
@@ -189,7 +594,8 @@
       <workItem from="1590354275543" duration="658000" />
       <workItem from="1590363059031" duration="852000" />
       <workItem from="1590364367689" duration="673000" />
-      <workItem from="1590404405449" duration="4519000" />
+      <workItem from="1590404405449" duration="4933000" />
+      <workItem from="1590432082133" duration="4459000" />
     </task>
     <servers />
   </component>
@@ -231,10 +637,10 @@
       <screen x="0" y="30" width="2048" height="1122" />
     </state>
     <state x="771" y="374" key="#com.intellij.fileTypes.FileTypeChooser/0.30.2048.1122@0.30.2048.1122" timestamp="1590407979746" />
-    <state x="689" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590407894172">
+    <state x="689" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590432135603">
       <screen x="0" y="30" width="2048" height="1122" />
     </state>
-    <state x="689" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.2048.1122@0.30.2048.1122" timestamp="1590407894172" />
+    <state x="689" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.2048.1122@0.30.2048.1122" timestamp="1590432135603" />
     <state x="868" y="356" key="FileChooserDialogImpl" timestamp="1590240824210">
       <screen x="0" y="30" width="2048" height="1122" />
     </state>

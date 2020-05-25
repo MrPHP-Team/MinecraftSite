@@ -1,71 +1,348 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">AnusCraft</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/banlist/bans.php">Banlist </a>
-                </li>
-            </ul>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="/register/login.php">Login </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/register/logout.php">Logout </a>
-                </li>
-                <?php
-                    session_start();
-
-                    // Check if the user is logged in, if not then redirect him to login page
-                    if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
-                        header("location: /register/login.php");
-                        exit;
-                    } else {
-
-                    }
-                ?>
-            </ul>
-        </div>
-    </nav>
-</header>
 <head>
-	<meta charset="utf-8">
-	<title>Minecraft Query PHP Class</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<style type="text/css">
-        body {
-            background-image: url(/images/bg.jpg); /* Путь к фоновому изображению */
-        }
-		.jumbotron {
-			margin-top: 30px;
-			border-radius: 0;
-		}
+	<title>OverMine</title>
 
-		.table thead th {
-			background-color: #428BCA;
-			border-color: #428BCA !important;
-			color: #FFF;
-		}
-	</style>
-</head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+
+	<!-- Custom CSS for this template -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-grid.min.css">
+	<link rel="stylesheet" type="text/css" href="js/bootstrap/bootstrap.min.js">
+  <link rel="stylesheet" type="text/css" href="js/bootstrap/bootstrap.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+ </head>
 <body>
-    <div class="container">
-    	<div class="jumbotron">
-            <center>
-                <iframe src="/monitoring/view.php" height="85">
-                </iframe>
-            </center>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+	<!-- Navbar -->
+	<div class="topnav" id="myTopnav">
+		<div class="max-width">
+			  <a href="#head">Домой</a>
+			  <a href="#about">О нас</a>
+			  <a href="#gamemodes">Режимы</a>
+			  <a href="#vote">Проголосуй</a>
+			  <a href="#staff">Команда</a>
+		  	  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 		</div>
 	</div>
+	<!-- End Navbar -->
+
+	<!-- Header (Banner) -->
+	<header id="head" class="parallax">
+		<h1>OverMine</h1>
+		<h3>mc.overmine.ru</h3>
+	</header>
+	<!-- End Header -->
+
+	<!-- About Section -->
+	<section id="about">
+		<h1>OverMine</h1>
+		<p>OverMine - это проект, который призван сделать революцию в мире ruMine.</p>
+		<hr>
+		<!-- First row of features -->
+		<div class="row features">
+			<div class="col">
+				<i class="fab fa-cloudscale feature"></i>
+				<h2>У нас очень мощный хост</h2>
+				<p>Наши сервера настолько мощны, что могут держать до 500 игроков в сумме.</p>
+			</div>
+			<div class="col">
+				<i class="fas fa-users feature"></i>
+				<h2>Хорошее Комьюнити</h2>
+				<p>Мы имеем прекрасное комьюнити, среди серверов румайна. Здесь нету школьников с донатом.</p>
+			</div>
+			<div class="col">
+				<i class="fas fa-shield-alt feature"></i>
+				<h2>Постоянный онлайн</h2>
+				<p>Наш сервер имеет 99% аптайм, что позволяет вам наслаждаться игрой!</p>
+			</div>
+		</div>
+		<!-- End first row -->
+
+		<!-- Second row of features -->
+		<div class="row features">
+			<div class="col">
+				<i class="far fa-calendar-alt feature"></i>
+				<h2>Хорошая отзывчивость</h2>
+				<p>Мы имеем очень быстрый скрипт в нашем магазине, который практически моментально выдаёт донат.</p>
+			</div>
+			<div class="col">
+				<i class="fas fa-code-branch feature"></i>
+				<h2>Самописные плагины</h2>
+				<p>На нашем сервере очень мног осамописных плагинов.</p>
+			</div>
+			<div class="col">
+				<i class="fas fa-fighter-jet feature"></i>
+				<h2>Истрибитель</h2>
+				<p>Это не особенность, но мне действительно нравятся истребители, нет, это наполнитель.</p>
+			</div>
+		</div>
+		<!-- End second row -->
+
+		<!-- Note: You can add as many feature rows as you like. -->
+	</section>
+	<!-- End about section -->
+
+	<!-- Banner 1 -->
+	<section id="banner" class="parallax">
+		<h1>Где ты был всё это время?</h1>
+		<h2>Присоеденяйся к нам <i>mc.overmine.ru</i></h2>
+	</section>
+	<!-- End Banner 1 -->
+
+	<!-- Gamemodes Section -->
+	<section id="gamemodes">
+		<h1>Режимы:</h1>
+		<p>Выбери себе свой режим мечты!</p>
+		<hr>
+		<!-- First Gamemode -->
+		<div class="row fixed-width">
+			<div class="col-md mode">
+				<h2>Creative</h2>
+				<p>Все вы знаете мини-режим Creative. Мы решили создать сервер который будет основным составляющим данного сервера. Данный сервер будет содержать как выживание так и режим в Creative. Вы сможете брать абсолютно все блоки помимо запрещенных предметов. Вайп на данном сервере будет раз в 2 недели</p>
+			</div>
+			<!-- Gamemode Image -->
+			<div class="col-md img">
+				<img class="res-img" src="/img/creative.jpg">
+			</div>
+			<!-- End Gamemode Image -->
+		</div>
+		<!-- End First Gamemode -->
+		<section class="gray">
+			<!-- Second Gamemode -->
+			<div class="row fixed-width">
+				<!-- Image Second Gamemode -->
+					<div class="col-md img">
+						<img class="res-img" src="/img/vanilla.png">
+					</div>
+				<!-- End Image Second Gamemode -->
+				<div class="col-md mode">
+					<h2>Vanilla</h2>
+					<p>Все вы когда-то хотели поиграть на абсолютно ванильном сервере? Данный сервер это вам предоставит! На данном сервере вы сможете развиваться как вам угодно на равных с другими! На нем не будет каких либо привилегий. Так же внимание! Специально для данного режима мы написали отдельные правила! Вайп на данном сервере в ПОЛ ГОДА!</p>
+				</div>
+			</div>
+			<!-- End Second Gamemode -->
+		</section>
+		<!-- Start Third Gamemode -->
+		<div class="row fixed-width">
+			<div class="col-md mode">
+				<h2>PVP</h2>
+				<p>Хочешь действительно поиграть на качественном сервере с PvP? Заходи! Мы сделали все что бы ваше выживание было комфортным! Вайп на данном сервере раз в 3 месяца</p>
+			</div>
+			<!-- Image Third Gamemode -->
+			<div class="col-md img">
+				<img class="res-img" src="/img/pvp.jpg">
+			</div>
+			<!-- End Image Third Gamemode -->
+		</div>
+		<!-- End Third Gamemode -->
+	</section>
+	<!-- End Gamemode Section -->
+
+	<!-- Start Second Banner -->
+	<section id="banner2" class="parallax">
+		<h1>Хочешь себе крутую привелегию?</h1>
+		<h2>Посмотри их на соответсвуещем режиме: <i><a href="#">mc.overmine.ru</a>
+            <br>
+            <a href="donate/index.php">И купи здесь:</a>
+         </i>
+        </h2>
+	</section>
+	<!-- End Second Banner -->
+
+	<!-- Vote Section -->
+	<section id="vote">
+		<h1>Проголосуй за нас!</h1>
+		<p>Проголосовав за нас, вы получаете подарок!</p>
+		<hr>
+		<div class="row votelist">
+			<!-- First Vote Link -->
+			<div class="col-md voteblock">
+				<img class="res-img-sm" src="https://www.planetminecraft.com/images/layout/planetminecraft_logo.png">
+				<h2>PlanetMinecraft</h2>
+				<a href="#">Проголосовать</a>
+			</div>
+			<!-- End First Vote Link -->
+
+			<!-- Second Vote Link -->
+			<div class="col-md voteblock">
+				<img class="res-img-sm" src="https://yt3.ggpht.com/-St0amFDpbC0/AAAAAAAAAAI/AAAAAAAAAAA/eZlt0WfF-F8/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg">
+				<h2>ServerPact</h2>
+				<a href="#">Проголосовать</a>
+			</div>
+			<!-- End Second Vote Link -->
+
+			<!-- Third Vote Link -->
+			<div class="col-md voteblock">
+				<img class="res-img-sm" src="https://minecraft-server-list.com/minelog/wp-content/uploads/High-Res-App-Icon.jpg">
+				<h2>MinecraftMP</h2>
+				<a href="#">Проголосовать</a>
+			</div>
+			<!-- End Third Vote Link -->
+		</div>
+
+		<!-- Note -->
+		<p>
+          Обратите внимание, что иногда получение вознаграждения может занять до 10 минут. Если вы не получили вознаграждение, обратитесь к сотруднику.</p>
+	</section>
+	<!-- End Vote Section -->
+
+	<!-- Third Banner -->
+	<section id="banner3" class="parallax">
+		<h1>Есть вопросы?</h1>
+		<h2>Напишите нам <i><a href="https://vk.com/mc_overmine">во Вконтакте</a></i></h2>
+	</section>
+	<!-- End Third Section -->
+
+	<!-- Staff Section -->
+	<section id="staff">
+		<h1>Наша Команда</h1>
+		<p>Команда на нашем сервере</p>
+		<hr>
+		<!-- First Row Staff -->
+		<div class="row stafflist">
+			<!-- First Staff Member -->
+			<div class="col-md staffblock">
+				<img width="100px;" src="https://i.pinimg.com/originals/70/a9/59/70a959d84ddad5dc8e2fabdaa70e9bb7.jpg">
+				<h2>zloyfarshik</h2>
+				<p>Создатель</p>
+			</div>
+			<!-- End First Staff Member -->
+
+			<!-- Second Staff Member -->
+			<div class="col-md staffblock">
+				<img width="100px;" src="https://i.pinimg.com/originals/70/a9/59/70a959d84ddad5dc8e2fabdaa70e9bb7.jpg">
+				<h2>Some dude</h2>
+				<p>Создатель - 2</p>
+			</div>
+			<!-- End Second Staf Member -->
+
+			<!-- Third Staff Member -->
+			<div class="col-md staffblock">
+				<img width="100px;" src="https://i.pinimg.com/originals/70/a9/59/70a959d84ddad5dc8e2fabdaa70e9bb7.jpg">
+				<h2>CarryLove</h2>
+				<p>Технический Администратор</p>
+			</div>
+			<!-- End Third Staff Member -->
+		</div>
+		<!-- End First Row Staff -->
+
+		<!-- Second Row Staff Member -->
+		<div class="row stafflist">
+			<!-- Fourth Staff Member -->
+			<div class="col-md staffblock">
+				<img width="100px;" src="https://i.pinimg.com/originals/70/a9/59/70a959d84ddad5dc8e2fabdaa70e9bb7.jpg">
+				<h2>игрок</h2>
+				<p>Куратор</p>
+			</div>
+			<!-- End Fourth Staff Member -->
+
+			<!-- Fifth Staff Member -->
+			<div class="col-md staffblock">
+				<img width="100px;" src="https://i.pinimg.com/originals/70/a9/59/70a959d84ddad5dc8e2fabdaa70e9bb7.jpg">
+				<h2>Some dude</h2>
+				<p>Модератор</p>
+			</div>
+			<!-- End Fifth Staff Member -->
+
+			<!-- Sixth Staff Member -->
+			<div class="col-md staffblock">
+				<img width="100px;" src="https://i.pinimg.com/originals/70/a9/59/70a959d84ddad5dc8e2fabdaa70e9bb7.jpg">
+				<h2>Some dude</h2>
+				<p>Модератор</p>
+			</div>
+			<!-- End Sixth Staf Member -->
+		</div>
+		<!-- End Second Row Staff -->
+	</section>
+	<!-- End Staff Section -->
+
+	<!-- Footer -->
+	<footer>
+		<div class="footer">
+			<div class="copyright-notice">
+				<!-- !! Replace this with your own domain !! -->
+				<p>mc.overmine.ru &copy; | Все права защищены</p>
+				<!-- If you want to, you're allowed to delete these credits. But if you want to support my work, please leave it. -->
+				<p>Сделано с <font color="red">❤</font> by <a target="_blank" href="#">CarryLove</a>.</font></p>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+	<!-- Smooth Scrolling Script (from https://goo.gl/uWLqWu) | Do not touch if you don't know what you're doing! -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
+
+		    // Make sure this.hash has a value before overriding default behavior
+		    if (this.hash !== "") {
+		      // Prevent default anchor click behavior
+		      event.preventDefault();
+
+		      // Store hash
+		      var hash = this.hash;
+
+		      // Using jQuery's animate() method to add smooth page scroll
+		      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 100, function(){
+
+		        // Add hash (#) to URL when done scrolling (default click behavior)
+		        window.location.hash = hash;
+		      });
+		    } // End if
+		  });
+		});
+	</script>
+	<!-- End Smooth Scrolling Script -->
+
+	<script>
+		function myFunction() {
+		    var x = document.getElementById("myTopnav");
+		    if (x.className === "topnav") {
+		        x.className += " responsive";
+		    } else {
+		        x.className = "topnav";
+		    }
+		}
+	</script>
+
+	<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	        document.getElementById("myBtn").style.display = "block";
+	    } else {
+	        document.getElementById("myBtn").style.display = "none";
+	    }
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	    document.body.scrollTop = 0;
+	    document.documentElement.scrollTop = 0;
+	}
+	</script>
+
 </body>
 </html>
