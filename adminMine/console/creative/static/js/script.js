@@ -22,7 +22,7 @@ $(document).ready(function(){
     $("#groupConsole").empty();
     alertInfo("Console has cleared.");
   });
-  
+
   var autocompleteCommands = [
       "achievement give *",
       "achievement give * <player>",
@@ -685,7 +685,7 @@ $(document).ready(function(){
     appendTo: "#txtCommandResults",
     open: function() {
       var position = $("#txtCommandResults").position(),
-          left = position.left, 
+          left = position.left,
           top = position.top,
           width = $("#txtCommand").width(),
           height = $("#txtCommandResults > ul").height();
@@ -700,8 +700,8 @@ $(document).ready(function(){
 });
 
 function logMsg(msg, sep, cls){
-  var date = new Date(), 
-      datetime = 
+  var date = new Date(),
+      datetime =
         ("0" + date.getDate()).slice(-2) + "-" + ("0" + (date.getMonth() + 1)).slice(-2) + "-" + date.getFullYear() + " @ " +
         ("0" + date.getHours()).slice(-2) + ":" + ("0" + date.getMinutes()).slice(-2) + ":" + ("0" + date.getSeconds()).slice(-2);
   $("#groupConsole")
@@ -756,16 +756,16 @@ function sendCommand(command){
     return;
   }
   logMsg(command, ">", "success");
-  $.post("rcon/index.php", { cmd: command })
+  $.post("rcon/admin.php", { cmd: command })
     .done(function(json){
       if(json.status){
         if(json.status == 'success' && json.response && json.command){
           if(json.response.indexOf("Unknown command") != -1){
-            alertDanger("Unknown command : " + json.command); 
+            alertDanger("Unknown command : " + json.command);
             logDanger(json.response);
           }
           else if(json.response.indexOf("Usage") != -1){
-            alertWarning(json.response); 
+            alertWarning(json.response);
             logWarning(json.response);
           }
           else{
@@ -774,16 +774,16 @@ function sendCommand(command){
           }
         }
         else if(json.status == 'error' && json.error){
-          alertDanger(json.error); 
+          alertDanger(json.error);
           logDanger(json.error);
         }
         else{
-          alertDanger("Malformed RCON api response"); 
+          alertDanger("Malformed RCON api response");
           logDanger("Malformed RCON api response");
         }
       }
       else{
-        alertDanger("RCON api error (no status returned)"); 
+        alertDanger("RCON api error (no status returned)");
         logDanger("RCON api error (no status returned)");
       }
     })

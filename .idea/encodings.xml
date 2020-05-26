@@ -2,7 +2,19 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/.editorconfig" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/adminMine/admin.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/adminMine/admin.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/adminMine/auth_vk.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/adminMine/console/creative/creative.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/adminMine/console/creative/creative.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/adminMine/console/index.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/adminMine/console/pvp/pvp.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/adminMine/console/pvp1/pvpone.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/adminMine/console/vanilla/config.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/adminMine/console/vanilla/vanilla.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/adminMine/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/adminMine/mypage.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/banlist/inc/css/custom.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css/main.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/donate/index,php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/donate/index.php" charset="UTF-8" />

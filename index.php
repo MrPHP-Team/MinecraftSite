@@ -226,7 +226,7 @@
 			<!-- Second Staff Member -->
 			<div class="col-md staffblock">
 				<img width="100px;" src="https://i.pinimg.com/originals/70/a9/59/70a959d84ddad5dc8e2fabdaa70e9bb7.jpg">
-				<h2>Some dude</h2>
+				<h2>Jlekto</h2>
 				<p>Создатель - 2</p>
 			</div>
 			<!-- End Second Staf Member -->
@@ -246,7 +246,7 @@
 			<!-- Fourth Staff Member -->
 			<div class="col-md staffblock">
 				<img width="100px;" src="https://i.pinimg.com/originals/70/a9/59/70a959d84ddad5dc8e2fabdaa70e9bb7.jpg">
-				<h2>игрок</h2>
+				<h2>Valeri_Cross</h2>
 				<p>Куратор</p>
 			</div>
 			<!-- End Fourth Staff Member -->

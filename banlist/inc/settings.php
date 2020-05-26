@@ -27,7 +27,7 @@ final class Settings {
 
         // Clicking on the header name will send you to this address.
         // $this->name_link = 'https://example.com';
-        $this->name_link = '/index.php';
+        $this->name_link = '/admin.php';
 
         // Here you can customize colors for the Bootstrap 4 theme that you are using.
         // Bootstrap 4 themes have four sets of colors: primary, secondary, light and dark.

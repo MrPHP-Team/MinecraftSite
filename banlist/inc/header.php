@@ -91,7 +91,7 @@ $settings = $this->page->settings;
             <div class="collapse navbar-collapse" id="litebans-navbar">
                 <?php
                 $this->navbar(array(
-                    "index.php"    => $this->page->t("title.index"),
+                    "admin.php"    => $this->page->t("title.index"),
                     "bans.php"     => $this->page->t("title.bans"),
                     "mutes.php"    => $this->page->t("title.mutes"),
                     "warnings.php" => $this->page->t("title.warnings"),
