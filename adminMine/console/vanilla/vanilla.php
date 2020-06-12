@@ -9,8 +9,11 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
+      <li class="nav-item">
           <a class="nav-link" href="/banlist/bans.php">Banlist </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/adminMine/coreprotect/bans.php">Logs </a>
         </li>
       </ul>
     </div>

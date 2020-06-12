@@ -50,6 +50,10 @@ $Timer = Number_Format( MicroTime( true ) - $Timer, 4, '.', '' );
                 <li class="nav-item">
                     <a class="nav-link" href="/adminMine/console/creative/creative.php">Console </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/adminMine/coreprotect/bans.php">Logs </a>
+                </li>
+
             </ul>
             <ul class="nav justify-content-end">
 

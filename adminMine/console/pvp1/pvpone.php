@@ -12,6 +12,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/banlist/bans.php">Banlist </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/adminMine/coreprotect/bans.php">Logs </a>
+                </li>
+
             </ul>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
