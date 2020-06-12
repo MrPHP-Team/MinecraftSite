@@ -17,6 +17,7 @@ Here,
     - banlist -> [sucsesfull]
     - monitoring -> [half sucsesfull]
     - console -> [sucsesfull]
+    - logs system -> [sucsesfull]
     --------------------------------------     
 
 # How can i use it?
@@ -28,5 +29,12 @@ Here,
     the root of your hosting, and then configure
     the config for yourself.
     --------------------------------------
+
+# Plugins:
+
+    --------------------------------------     
+    CoreProtect
+    LiteBans
+    --------------------------------------     
 
 _~~_Dev by CarryLove.__~~         
