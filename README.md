@@ -6,35 +6,20 @@ that create sites for minecraft projects.
 
 
 Here,
- you will find a convenient payment system, 
- a convenient form for applying for administrative posts, 
- beautiful design, here you will find what you were looking for, 
+ you will find a convenient payment system,
+ a convenient form for applying for administrative posts,
+ beautiful design, here you will find what you were looking for,
  what you paid for, completely free!
-    
+
 # ToDo:
-    --------------------------------------     
+    --------------------------------------
     - login/register sytem -> [sucsesfull]
     - banlist -> [sucsesfull]
     - monitoring -> [half sucsesfull]
     - console -> [sucsesfull]
     - logs system -> [sucsesfull]
-    --------------------------------------     
-
-# How can i use it?
-    
-    
-    --------------------------------------     
-    to use this site,
-    you must accept the agreement and clone the repository to
-    the root of your hosting, and then configure
-    the config for yourself.
     --------------------------------------
 
-# Plugins:
+[Wiki (Install information)](https://github.com/lkapitman/minecraft-site/wiki)
 
-    --------------------------------------     
-    CoreProtect
-    LiteBans
-    --------------------------------------     
-
-_~~_Dev by CarryLove.__~~         
+_~~_Dev by CarryLove.__~~
