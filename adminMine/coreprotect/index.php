@@ -321,7 +321,7 @@ $session = new Session($config);
       <div class="container text-muted">
         <!-- Copyright Message -->
         <div>&copy; <?php echo $config['page']['copyright'] ?></div>
-        <div class="faded">CoreProtect Lookup веб-интерфейс v1.0.0-pre2 <a href="https://chuu.sh/">chuu.sh</a> &bull; <a href="https://github.com/chuushi/CoreProtect-Lookup-Web-Interface"><i class="fa fa-github"></i> GitHub page</a> &bull; <a href="https://github.com/chuushi/CoreProtect-Lookup-Web-Interface/issues">Отправить вопрос</a></div>
+        <div class="faded">CoreProtect Lookup веб-интерфейс v1.0.0-pre2</div>
       </div>
     </footer>
 
