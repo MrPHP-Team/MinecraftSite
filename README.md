@@ -18,6 +18,7 @@ Here,
     - monitoring -> [half sucsesfull]
     - console -> [sucsesfull]
     - logs system -> [sucsesfull]
+    - pvp-top list -> [sucsesfull]
     --------------------------------------
 
 [Wiki (Install information)](https://github.com/lkapitman/minecraft-site/wiki)

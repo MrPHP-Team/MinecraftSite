@@ -32,7 +32,8 @@
 	<div class="topnav" id="myTopnav">
 		<div class="max-width">
 			  <a href="#head">Домой</a>
-			  <a href="#about">О нас</a>
+			  <a href="/pvptop/index.php">Топ киллеров</a>
+			  <a href="/banlist/index.php">Банлист</a>
 			  <a href="#gamemodes">Режимы</a>
 			  <a href="#vote">Проголосуй</a>
 			  <a href="#staff">Команда</a>
