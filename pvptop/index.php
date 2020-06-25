@@ -145,5 +145,5 @@ echo "
 ?>
 	</tbody>
 </table>
-Made with <i class="icon ion-heart"></i> by CarryLove
+Сделано с <i class="icon ion-heart"></i> by CarryLove
 </html>

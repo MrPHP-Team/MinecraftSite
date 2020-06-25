@@ -33,6 +33,7 @@
 		<div class="max-width">
 			  <a href="#head">Домой</a>
 			  <a href="/pvptop/index.php">Топ киллеров</a>
+			  <a href="/balancetop/index.php">Топ богачей</a>
 			  <a href="/banlist/index.php">Банлист</a>
 			  <a href="#gamemodes">Режимы</a>
 			  <a href="#vote">Проголосуй</a>
