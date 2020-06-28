@@ -27,7 +27,8 @@
         --------------------------------------
         
 #### Wiki:
-        [Wiki (Install information)](https://github.com/lkapitman/minecraft-site/wiki)
+
+    https://github.com/lkapitman/minecraft-site/wiki
             
 ## Russian:
     
@@ -58,6 +59,7 @@
         --------------------------------------        
         
 #### Wiki:
-        [Wiki (Установочная информация + гайды)](https://github.com/lkapitman/minecraft-site/wiki)
+
+    https://github.com/lkapitman/minecraft-site/wiki
 
 _~~_Dev by CarryLove.__~~
