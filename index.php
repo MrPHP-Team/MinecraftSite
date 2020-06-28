@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>OverMine</title>
+	<title>BestRolePlay</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
@@ -32,7 +32,6 @@
 	<div class="topnav" id="myTopnav">
 		<div class="max-width">
 			  <a href="#head">Домой</a>
-			  <a href="/pvptop/index.php">Топ киллеров</a>
 			  <a href="/balancetop/index.php">Топ богачей</a>
 			  <a href="/banlist/index.php">Банлист</a>
 			  <a href="#gamemodes">Режимы</a>
@@ -45,15 +44,15 @@
 
 	<!-- Header (Banner) -->
 	<header id="head" class="parallax">
-		<h1>OverMine</h1>
-		<h3>mc.overmine.ru</h3>
+		<h1>BestRolePlay</h1>
+		<h3>bestroleplay.tu</h3>
 	</header>
 	<!-- End Header -->
 
 	<!-- About Section -->
 	<section id="about">
-		<h1>OverMine</h1>
-		<p>OverMine - это проект, который призван сделать революцию в мире ruMine.</p>
+		<h1>BestRolePlay</h1>
+		<p>BestRolePlay - это проект, который призван сделать революцию в мире ruMine.</p>
 		<hr>
 		<!-- First row of features -->
 		<div class="row features">
@@ -114,8 +113,8 @@
 		<!-- First Gamemode -->
 		<div class="row fixed-width">
 			<div class="col-md mode">
-				<h2>Creative</h2>
-				<p>Все вы знаете мини-режим Creative. Мы решили создать сервер который будет основным составляющим данного сервера. Данный сервер будет содержать как выживание так и режим в Creative. Вы сможете брать абсолютно все блоки помимо запрещенных предметов. Вайп на данном сервере будет раз в 2 недели</p>
+				<h2>RolePlay</h2>
+				<p>RolePlay - это рп режим. здесь вы сможете поиграть на сервере со множетсвом самописных плагинов, которые облегчат вам рп!</p>
 			</div>
 			<!-- Gamemode Image -->
 			<div class="col-md img">
@@ -133,8 +132,8 @@
 					</div>
 				<!-- End Image Second Gamemode -->
 				<div class="col-md mode">
-					<h2>Vanilla</h2>
-					<p>Все вы когда-то хотели поиграть на абсолютно ванильном сервере? Данный сервер это вам предоставит! На данном сервере вы сможете развиваться как вам угодно на равных с другими! На нем не будет каких либо привилегий. Так же внимание! Специально для данного режима мы написали отдельные правила! Вайп на данном сервере в ПОЛ ГОДА!</p>
+					<h2>Разработка</h2>
+					<p>####</p>
 				</div>
 			</div>
 			<!-- End Second Gamemode -->
@@ -142,8 +141,8 @@
 		<!-- Start Third Gamemode -->
 		<div class="row fixed-width">
 			<div class="col-md mode">
-				<h2>PVP</h2>
-				<p>Хочешь действительно поиграть на качественном сервере с PvP? Заходи! Мы сделали все что бы ваше выживание было комфортным! Вайп на данном сервере раз в 3 месяца</p>
+				<h2>Разработка</h2>
+				<p>####</p>
 			</div>
 			<!-- Image Third Gamemode -->
 			<div class="col-md img">
@@ -158,7 +157,7 @@
 	<!-- Start Second Banner -->
 	<section id="banner2" class="parallax">
 		<h1>Хочешь себе крутую привелегию?</h1>
-		<h2>Посмотри их на соответсвуещем режиме: <i><a href="#">mc.overmine.ru</a>
+		<h2>Посмотри их на соответсвуещем режиме: <i><a href="#">bestroleplay.ru</a>
             <br>
             <a href="donate/index.php">И купи здесь:</a>
          </i>
@@ -206,7 +205,7 @@
 	<!-- Third Banner -->
 	<section id="banner3" class="parallax">
 		<h1>Есть вопросы?</h1>
-		<h2>Напишите нам <i><a href="https://vk.com/mc_overmine">во Вконтакте</a></i></h2>
+		<h2>Напишите нам <i><a href="https://vk.com/bestrp1ay">во Вконтакте</a></i></h2>
 	</section>
 	<!-- End Third Section -->
 
@@ -220,7 +219,7 @@
 			<!-- First Staff Member -->
 			<div class="col-md staffblock">
 				<img width="100px;" src="https://i.pinimg.com/originals/70/a9/59/70a959d84ddad5dc8e2fabdaa70e9bb7.jpg">
-				<h2>zloyfarshik</h2>
+				<h2>Kitkatkat123</h2>
 				<p>Создатель</p>
 			</div>
 			<!-- End First Staff Member -->
@@ -228,8 +227,8 @@
 			<!-- Second Staff Member -->
 			<div class="col-md staffblock">
 				<img width="100px;" src="https://i.pinimg.com/originals/70/a9/59/70a959d84ddad5dc8e2fabdaa70e9bb7.jpg">
-				<h2>Jlekto</h2>
-				<p>Создатель - 2</p>
+				<h2>hopelessness</h2>
+				<p>Заместитель</p>
 			</div>
 			<!-- End Second Staf Member -->
 
@@ -248,8 +247,8 @@
 			<!-- Fourth Staff Member -->
 			<div class="col-md staffblock">
 				<img width="100px;" src="https://i.pinimg.com/originals/70/a9/59/70a959d84ddad5dc8e2fabdaa70e9bb7.jpg">
-				<h2>Valeri_Cross</h2>
-				<p>Куратор</p>
+				<h2>_BlacKTwinN</h2>
+				<p>Технический Администратор №2</p>
 			</div>
 			<!-- End Fourth Staff Member -->
 
@@ -257,15 +256,15 @@
 			<div class="col-md staffblock">
 				<img width="100px;" src="https://i.pinimg.com/originals/70/a9/59/70a959d84ddad5dc8e2fabdaa70e9bb7.jpg">
 				<h2>Some dude</h2>
-				<p>Модератор</p>
+				<p>Технический Администратор №3</p>
 			</div>
 			<!-- End Fifth Staff Member -->
 
 			<!-- Sixth Staff Member -->
 			<div class="col-md staffblock">
 				<img width="100px;" src="https://i.pinimg.com/originals/70/a9/59/70a959d84ddad5dc8e2fabdaa70e9bb7.jpg">
-				<h2>Some dude</h2>
-				<p>Модератор</p>
+				<h2>ABiPomniTe3to</h2>
+				<p>Главный Билдер</p>
 			</div>
 			<!-- End Sixth Staf Member -->
 		</div>
@@ -278,7 +277,7 @@
 		<div class="footer">
 			<div class="copyright-notice">
 				<!-- !! Replace this with your own domain !! -->
-				<p>mc.overmine.ru &copy; | Все права защищены</p>
+				<p>bestroleplay.ru &copy; | Все права защищены</p>
 				<!-- If you want to, you're allowed to delete these credits. But if you want to support my work, please leave it. -->
 				<p>Сделано с <font color="red">❤</font> by <a target="_blank" href="#">CarryLove</a>.</font></p>
 			</div>

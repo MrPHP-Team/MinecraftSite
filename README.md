@@ -15,10 +15,11 @@ Here,
     --------------------------------------
     - login/register sytem -> [sucsesfull]
     - banlist -> [sucsesfull]
-    - monitoring -> [half sucsesfull]
     - console -> [sucsesfull]
     - logs system -> [sucsesfull]
     - pvp-top list -> [sucsesfull]
+    - balance-top -> [sucsesfull]
+    - auto-donate -> [sucsesfull]
     --------------------------------------
 
 [Wiki (Install information)](https://github.com/lkapitman/minecraft-site/wiki)

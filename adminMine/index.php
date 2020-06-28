@@ -19,7 +19,7 @@ $id = $_SESSION['uid']
     <center>
       <a href=' <?php echo 'https://oauth.vk.com/authorize?client_id='.$id_app.'&redirect_uri='.$url_script.'&response_type=code'; ?> ' class="row">
         <?php
-          if ($id == 514609372 || $id == 215538439 || $id == 241930040 || $id == 103152545) {
+          if ($id == 458989589 || $id == 514609372) {
             header("/adminMine/admin.php");
           } else {
             print "Fuck You";
@@ -31,4 +31,3 @@ $id = $_SESSION['uid']
     </center>
   </div>
 </body>
-
