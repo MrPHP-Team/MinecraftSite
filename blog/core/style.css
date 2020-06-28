@@ -1,0 +1,115 @@
+body, html {
+    font-family: 'Russo One',sans-serif!important;
+    background: #ccc;
+}
+.home-header {
+    height: 40vh;
+    background: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid #3366ff;
+    color: #fff;
+}
+
+
+.admin-header {
+    min-height: 20vh;
+    background: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid #3366ff;
+    color: #fff;
+}
+.admin-title{
+    text-shadow: 3px -3px 2px #333;
+    font-size: 6rem!important;
+    font-weight: 300!important;
+    color:#fff;
+}
+
+.home-server-name{
+    text-shadow: 3px -3px 2px #333;
+    font-size: 6rem!important;
+    font-weight: 300!important;
+    color:#fff;
+}
+.home-server-name span{
+    color:#3366ff;
+    text-shadow: 3px -3px 2px #333;
+}
+@media screen and (max-width: 768px){
+    .home-server-name{
+        font-size: 3rem!important;
+    }
+}
+
+
+.btn-home-server {
+    cursor: pointer;
+    padding: 1rem;
+    background-color: #3366ff;
+    color: #fff;
+    text-align: center;
+    font-size: 1.7rem;
+}
+.btn-home-server .status-online {
+    color: yellowgreen;
+}
+.btn-home-server .status-offline {
+    color: red;
+}
+.status-online {
+    color: green;
+}
+.status-offline {
+    color: red;
+}
+.server-players {
+    color: green;
+}
+
+.home-session {
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+}
+.home-session .col-title{
+    color:#212529;
+}
+
+.posts .card-footer {
+    border-bottom: 5px solid #3366ff;
+}
+.sidebar .card-footer {
+    border-bottom: 5px solid #3366ff;
+}
+
+.user-profile {
+    color: #212529;
+}
+.user-profile small {
+    color: #747373;
+}
+.user-profile small span{
+    color: #212529;
+}
+
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: #333;
+    border-top: 5px solid #3366ff;
+    color: #fff;
+}
+footer .copyright i {
+    color: red;
+}
+footer .copyright a {
+    color: #3366ff;
+}
+footer .copyright a:hover {
+    color: #212529;
+}
