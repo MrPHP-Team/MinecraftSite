@@ -1,18 +1,19 @@
 <?php
 include_once('core/config.php');
+include ("anti_ddos/start.php");
 ?>
 
 <html>
 
 	<head>
-	
+
 		<!-- МЕТА ТЕГИ -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- /МЕТА ТЕГИ -->
-		
+
 		<title><?=$settings['site']['title'] ?> - Покупка привилегий</title>
-		
+
 		<!-- СТИЛИ -->
 		<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -56,7 +57,7 @@ include_once('core/config.php');
 		<script src="/js/bootstrap.min.js"></script>
 		<script src="/js/main.js"></script>
 		<!-- /JS -->
-		
+
 	</body>
 
 </html>

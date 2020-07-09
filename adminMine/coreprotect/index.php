@@ -1,13 +1,5 @@
 <?php
-/**
- * Index Page
- *
- * CoreProtect Lookup Web Interface
-
- * @license MIT License
- * @link https://github.com/chuushi/CoreProtect-Lookup-Web-Interface
- * @since 1.0.0
- */
+ include ("anti_ddos/start.php");
 
 require_once "res/php/Session.class.php";
 

@@ -1,3 +1,6 @@
+<?php
+  include ("anti_ddos/start.php");
+?>
 <!doctype html>
 <html lang="en">
 	<head>

@@ -1,5 +1,6 @@
 <?php
-include('auth_vk.php');
+  include ("anti_ddos/start.php");
+  include('auth_vk.php');
 $id_app     = '7484074';
 $url_script = 'https://localhost/adminMine/auth_vk.php';
 $name = $_SESSION['name'];

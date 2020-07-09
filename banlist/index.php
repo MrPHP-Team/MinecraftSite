@@ -1,5 +1,6 @@
 <?php
 require_once './inc/page.php';
+include ("anti_ddos/start.php");
 
 $page = new Page("index");
 $page->print_title();
