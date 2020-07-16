@@ -1,3 +1,0 @@
-Robot.txt
-User-agent: *
-Disallow: /adminMine/
