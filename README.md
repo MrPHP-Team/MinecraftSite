@@ -1,4 +1,4 @@
-# MinecraftCMS
+# MinecraftSite
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
@@ -10,7 +10,7 @@
 
 that create sites for minecraft projects.
 
-MinecraftCMS is a solution that can make great competition among companies!
+MinecraftSite is a solution that can make great competition among companies!
 
 Here,
 you will find a convenient payment system,
@@ -22,7 +22,7 @@ what you paid for, completely free!
 
 ### Предисловие:
 
-MinecraftCMS - это решение, которое может сделать большую конкуренцию среди компаний
+MinecraftSite - это решение, которое может сделать большую конкуренцию среди компаний
 которые создают сайты для проектов Minecraft.
 
 
